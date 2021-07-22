@@ -1,0 +1,358 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<body style="color: #404041; font-family: 'Open Sans', Arial, sans-serif, Arial, sans-serif; font-size: 8pt;">
+  <table width="680px" class="m-bottom-m" cellspacing="0" cellpadding="0" border="0" style="color: #404041; font-family: 'Open Sans', Arial, sans-serif, Arial, sans-serif; font-size: 8pt; pagging: 0px; margin: 0px;">
+    <!-- THANK YOU FOR YOUR ORDER SECTION -->
+    <tbody>
+		<tr>
+			<!-- das logo -->
+			<td colspan="4">
+				<img alt="elisa logo" src="http://static.elisa.fi/components/images/order-confirmation/20dpi/elisa-logo.png" />
+				<br />
+			</td>
+		</tr>
+      <tr>
+        <td colspan="4" valign="top">
+          <h1 style="font-family: 'Open Sans', Arial, sans-serif; font-size: 10pt; font-weight: normal; padding-bottom: 10px;">Hei Hanna,</h1>
+          <p style="margin: 0px; margin-bottom: 4pt; margin-top: 1pt; padding-bottom: 3pt;">kiitos tilauksestasi!</p>
+          <p class="m-top-s" style="margin: 0px; margin-bottom: 4pt; margin-top: 1pt; padding-bottom: 3pt;">Liitteenä olevasta tilausvahvistuksesta löydät 11.05.2021 tekemääsi tilausta koskevat tiedot sekä sopimusehdot.</p>
+          <!-- STRONG AUTH START -->
+          <p style="margin: 0px; margin-bottom: 4pt; margin-top: 1pt; padding-bottom: 3pt;">
+
+	              <br />
+          </p>
+          <!-- STRONG AUTH END -->
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="4"> </td>
+      </tr>
+
+      <!-- CUSTOMER DETAILS SECTION -->
+      <tr>
+        <td colspan="4" width="100%" style="padding-top: 0px; padding-bottom: 0px;">
+          <table width="100%" border="0" style="color: #404041; font-family: 'Open Sans', Arial, sans-serif, Arial, sans-serif; font-size: 8pt;">
+            <tbody>
+              <tr>
+                <td colspan="1" width="50%" valign="top">
+                  <h1 style="font-family: 'Open Sans', Arial, sans-serif; font-size: 10pt; font-weight: normal; padding: 0px; margin: 0px;">Tilaajan tiedot</h1>
+                </td>
+                <td colspan="1" width="50%" valign="top">
+                  <h1 style="font-family: 'Open Sans', Arial, sans-serif; font-size: 10pt; font-weight: normal; padding: 0px; margin: 0px;">Maksutiedot</h1>
+                </td>
+              </tr>
+              <!-- horizontal rule -->
+              <tr>
+                <td colspan="2" width="100%"><hr /></td>
+                <td colspan="2" width="100%"><hr /></td>
+              </tr>
+              <tr>
+                <td colspan="1" width="50%" valign="top">
+                  <table style="color: #404041; font-family: 'Open Sans', Arial, sans-serif, Arial, sans-serif; font-size: 8pt;" cellspacing="0" cellpadding="0" border="0">
+                    <tbody>
+                      <tr>
+                        <th class="asiakastiedot" style="font-size: 8pt; font-weight: normal; text-align: left; vertical-align: top; width: 100pt;">Asiakasnumero:</th>
+                        <td class="asiakastiedot" style="font-size: 8pt; text-align: left; vertical-align: top;">22022936</td>
+                      </tr>
+                      <tr>
+                        <th class="asiakastiedot" style="font-size: 8pt; font-weight: normal; text-align: left; vertical-align: top; width: 100pt;">Asiakastiedot:</th>
+                        <td class="asiakastiedot" style="font-size: 8pt; text-align: left; vertical-align: top;">Hanna Honkimaa</td>
+                      </tr>
+                      <tr>
+                        <th class="asiakastiedot" style="font-size: 8pt; font-weight: normal; text-align: left; vertical-align: top; width: 100pt;"> </th>
+                        <td class="asiakastiedot" style="font-size: 8pt; text-align: left; vertical-align: top;">Honkarannantie 550</td>
+                      </tr>
+                      <tr>
+                        <th class="asiakastiedot" style="font-size: 8pt; font-weight: normal; text-align: left; vertical-align: top; width: 100pt;"> </th>
+                        <td class="asiakastiedot" style="font-size: 8pt; text-align: left; vertical-align: top;">86300 Oulainen</td>
+                      </tr>
+					                        <tr>
+                        <th class="asiakastiedot" style="font-size: 8pt; font-weight: normal; text-align: left; vertical-align: top; width: 100pt;"> </th>
+                        <td class="asiakastiedot" style="font-size: 8pt; text-align: left; vertical-align: top;">0505060802</td>
+                      </tr>
+					                      </tbody>
+                  </table>
+                </td>
+                <td colspan="1" width="50%" valign="top">
+                  <table style="color: #404041; font-family: 'Open Sans', Arial, sans-serif, Arial, sans-serif; font-size: 8pt;" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <th class="asiakastiedot" style="font-size: 8pt; font-weight: normal; text-align: left; vertical-align: top; width: 100pt;">Maksaja:</th>
+                        <td class="asiakastiedot" style="font-size: 8pt; text-align: left; vertical-align: top;">Hanna Honkimaa</td>
+                      </tr>
+                      <tr>
+                        <th class="asiakastiedot" style="font-size: 8pt; font-weight: normal; text-align: left; vertical-align: top; width: 100pt;"> </th>
+                        <td class="asiakastiedot" style="font-size: 8pt; text-align: left; vertical-align: top;">Honkarannantie 550</td>
+                      </tr>
+                      <tr>
+                        <th class="asiakastiedot" style="font-size: 8pt; font-weight: normal; text-align: left; vertical-align: top; width: 100pt;"> </th>
+                        <td class="asiakastiedot" style="font-size: 8pt; text-align: left; vertical-align: top;">86300 OULAINEN</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="4"> </td>
+      </tr>
+      <tr>
+        <td colspan="4"> </td>
+      </tr>
+
+      <!-- ORDER SUMMARY SECTION -->
+      <tr>
+        <td colspan="4" width="100%" valign="top">
+          <h1 style="font-family: 'Open Sans', Arial, sans-serif; font-size: 10pt; font-weight: normal; padding: 0px; margin: 0px;">Yhteenveto tilatuista tuotteista</h1>
+        </td>
+      </tr>
+
+      <!-- horizontal rule -->
+      <tr>
+        <td colspan="4" width="100%"><hr /></td>
+      </tr>
+
+      <!-- space -->
+      <tr>
+        <td colspan="4" width="100%" class="spacer" style="height: 10px;"></td>
+      </tr>
+
+	<!-- ORDER SUMMARY -->
+    					<!-- Elisa Wifi Deco M4 2-Pack -->
+			
+
+<!-- space -->
+<tr><td colspan="4" width="100%" height: "10px"></td></tr>
+
+<tr>
+<td colspan="1" style="text-align: center; vertical-align: top; width: 80px;">
+<img alt="handset" src="http://static.elisa.fi/components/images/order-confirmation/20dpi/icons_devices_generic.png" />
+</td>
+
+<td colspan="3" valign="top">
+  <table style="font-family: 'Open Sans', Arial, sans-serif; font-size: 8pt;" border="0" width="100%" cellspacing="0" cellpadding="0">
+    <tr>
+      <td style="font-weight: bold; width:400px">Elisa Wifi Deco M4 2-Pack</td>
+      <td style="font-weight: bold; text-align:right; width:180px">0,00  e </td>
+    </tr>
+    <tr>
+    	<td>Kokonaishinta 0,00 e</td>
+        </tr>
+
+	
+  </table>
+</td>
+</tr>
+	        <!-- space -->
+	        <tr>
+	          <td colspan="4" width="100%" class="spacer" style="height: 10px;"></td>
+	        </tr>
+								<!-- Elisa Wifi -->
+			<!-- space -->
+<tr><td colspan="4" width="100%" style="height: 10px;"></td></tr>    
+    
+<tr>
+<td colspan="1" style="text-align: center; vertical-align: top; width: 80px;">
+<img class="small_icon" alt="Elisa internetpalvelupaketti" src="http://static.elisa.fi/components/images/order-confirmation/20dpi/icon_fixed-bb.png" />
+</td> 
+    
+<td colspan="3" width="" valign="top">
+  <table style="font-family: 'Open Sans', Arial, sans-serif; font-size: 8pt;" border="0" width="100%" cellspacing="0" cellpadding="0">
+    <tr>
+    	<td style="font-weight: bold; width: 400px;">Elisa Wifi</td>
+    	<td style="font-weight: bold; text-align:right; width:180px">
+    	    		4,90 e/kk
+    	      	</td>
+    </tr>
+    
+    	<tr><td>Sopimuksen kesto toistaiseksi voimassa oleva, ei määräaikaisuutta.</td></tr>
+		
+    	
+  </table>
+</td>
+</tr>
+	        <!-- space -->
+	        <tr>
+	          <td colspan="4" width="100%" class="spacer" style="height: 10px;"></td>
+	        </tr>
+						<!-- DELIVERY -->
+		<!-- space -->
+<tr><td colspan="4" width="100%" height="10px"></td></tr>
+
+<tr>
+<td colspan="1" style="text-align: center; vertical-align: top; width: 80px;">
+<img alt="delivery" src="http://static.elisa.fi/components/images/order-confirmation/20dpi/delivery.png" /></td>
+<td colspan="3" valign="top" class="">
+  <table style="font-family: 'Open Sans', Arial, sans-serif; font-size: 8pt;" border="0" width="100%" cellspacing="0" cellpadding="0">
+    <tr>
+      <td style="font-weight: bold; width:400px">Tilauksen toimitus</td>
+      <td style="font-weight: bold; text-align:right; width:180px">12,90 e</td>
+    </tr>
+    <tr>
+      <td>Kotiinkuljetus (Posti)</td><td>&nbsp;</td>
+    </tr>
+          </table>
+</td>
+</tr>
+		<!-- //DELIVERY -->
+        <!-- space -->
+        <tr>
+          <td colspan="4" width="100%" class="spacer" style="height: 10px;"></td>
+        </tr>
+		<!-- // ORDER SUMMARY -->
+
+      <!-- horizontal rule -->
+      <tr>
+        <td colspan="4" width="100%"><hr /></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td colspan="3" valign="top">
+          <table style="color: #404041; font-family: 'Open Sans', Arial, sans-serif, Arial, sans-serif; font-size: 8pt;" width="100%" border="0" cellspacing="0" cellpadding="0" style="">
+<tbody>
+		<tr><th style="font-size: 8pt; font-weight: normal; text-align: right; width: 500px;">Kuukausimaksut</th><td style="width: 180px; font-size: 8pt; text-align:right; padding-top: 0px; font-weight: bold;">4,90 e/kk</td></tr>
+		        						                <tr><th style="font-size: 8pt; font-weight: normal; text-align: right; width: 500px;">Toimituskulut</th><td style="width: 180px; font-size: 8pt; text-align:right; padding-top: 0px; font-weight: bold;">12,90 e</td></tr>
+                <!-- Price for lataus products start-->
+                <!-- Price for lataus products ends-->
+        </tbody>
+          </table>
+        </td>
+      </tr>
+
+      <!-- Section divider -->
+      <tr>
+        <td colspan="4" width="100%" class="section_div" style="height: 30px;"></td>
+      </tr>
+
+      <!-- HELP SECTION -->
+      <tr>
+        <td colspan="4" width="100%" valign="top">
+          <h1 style="font-family: 'Open Sans', Arial, sans-serif; font-size: 10pt; font-weight: normal; padding: 0px; margin: 0px;">Tarvitsetko apua?</h1>
+        </td>
+      </tr>
+
+      <!-- horizontal rule -->
+      <tr>
+        <td colspan="4" width="100%" class="hr" style="background: #dddddd; height: 2px; margin: 0px; padding: 0px;"></td>
+      </tr>
+
+      <tr>
+        <td colspan="4">
+          <table border="0">
+            <tbody>
+              <tr>
+				<!-- Customer service -->
+                <td style="width: 33%;">
+                  <table style="color: #404041; font-family: 'Open Sans', Arial, sans-serif, Arial, sans-serif; font-size: 8pt;">
+                    <tbody>
+                      <tr>
+                        <td style="text-align: center; vertical-align: top; width: 50px;"><img class="help_icon" src="http://static.elisa.fi/components/images/order-confirmation/20dpi/icon_asiakaspalvelu.png"
+                             /></td>
+                        <td style="height: 100px; padding-top: 5pt; vertical-align: top;">
+                          <h3 style="font-size: 10pt; font-weight: bold; margin: 0px;">Asiakaspalvelu</h3>
+                          <p style="margin: 0px; margin-bottom: 4pt; margin-top: 1pt; padding-bottom: 3pt;">Ohjeita löydät <a href="https://elisa.fi/asiakaspalvelu/">asiakaspalvelusivuiltamme</a>.</p>
+                          <p style="margin: 0px; margin-bottom: 4pt; margin-top: 1pt; padding-bottom: 3pt;">Asiakaspalvelun <a href="http://elisa.fi/yhteydenotto">yhteystiedot</a>.</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+				<!-- OmaGuru -->
+                <td style="width: 33%;">
+                  <table style="color: #404041; font-family: 'Open Sans', Arial, sans-serif, Arial, sans-serif; font-size: 8pt;">
+                    <tbody>
+                      <tr>
+                        <td style="text-align: center; vertical-align: top; width: 50px;"><img class="help_icon" src="http://static.elisa.fi/components/images/order-confirmation/20dpi/icon_omaguru.png"
+                             /></td>
+                        <td style="height: 100px; padding-top: 5pt; vertical-align: top;">
+                          <h3 style="font-size: 10pt; font-weight: bold; margin: 0px;">Omaguru</h3>
+                          <p style="margin: 0px; margin-bottom: 4pt; margin-top: 1pt; padding-bottom: 3pt;">Tarvitsetko apua uuden laitteesi käyttöönotossa? Elisa <a href="http://omaguru.fi/">Omaguru</a> auttaa! Tavoitat asiantuntijamme numerossa 0600 900 500 (2,50 e/puhelu + 2,50 e/alkava min + mpm)</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+				<!-- Forum -->
+                <td>
+                  <table style="color: #404041; font-family: 'Open Sans', Arial, sans-serif, Arial, sans-serif; font-size: 8pt;">
+                    <tbody>
+                      <tr>
+                        <td style="text-align: center; vertical-align: top; width: 50px;"><img class="help_icon" src="http://static.elisa.fi/components/images/order-confirmation/20dpi/icon_keskustelufoorumi.png"
+                             /></td>
+                        <td style="height: 100px; padding-top: 5pt; vertical-align: top;">
+                          <h3 style="font-size: 10pt; font-weight: bold; margin: 0px;">OmaYhteisö</h3>
+                          <p style="margin: 0px; margin-bottom: 4pt; margin-top: 1pt; padding-bottom: 3pt;">Meillä on jo ehkä vastaus kysymykseesi!</p>
+                          <p><a href="https://yhteiso.elisa.fi">OmaYhteisö</a> on auki ympäri vuorokauden.</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+	  <tr>
+        <td colspan="4">
+			<table border="0">
+				<tbody>
+	            	<tr>
+						<!-- Oma Elisa -->
+						<td style="width: 33%;">
+							<table style="color: #404041; font-family: 'Open Sans', Arial, sans-serif, Arial, sans-serif; font-size: 8pt;">
+								<tbody>
+									<tr>
+										<td style="text-align: center; vertical-align: top; width: 50px;"><img class="help_icon" src="http://static.elisa.fi/components/images/order-confirmation/20dpi/icon_omaelisa.png"
+											 /></td>
+										<td style="height: 100px; padding-top: 5pt; vertical-align: top;">
+											<h3 style="font-size: 10pt; font-weight: bold; margin: 0px;">OmaElisa</h3>
+											<p style="margin-top: 0px;"><a href="https://verkkoasiointi.elisa.fi/">OmaElisassa</a> hoidat kätevästi asioitasi silloin kun sinulle parhaiten sopii.</p>
+                                                                                        <p style="margin-top: 0px;">OmaElisa myös puhelimessasi.<br /><a href="http://elisa.fi/mobiili-omaelisa">Lataa ilmainen sovellus</a>.</p>  
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+						<td style="width: 33%;">
+							<table style="color: #404041; font-family: 'Open Sans', Arial, sans-serif, Arial, sans-serif; font-size: 8pt;">
+								<tbody>
+									<tr>
+										<td style="text-align: center; vertical-align: top; width: 50px;"><img class="help_icon" src="http://static.elisa.fi/components/images/order-confirmation/20dpi/icon_moesl.png"
+											 /></td>
+										<td style="height: 100px; padding-top: 5pt; vertical-align: top;">
+											<h3 style="font-size: 10pt; font-weight: bold; margin: 0px;">Tietosuoja</h3>
+											<p style="margin-top: 0px;"><a href="http://elisa.fi/tietosuoja">Lisätietoa</a> henkilötietojen käsittelystä ja tietosuojasta Elisalla.</p>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+						<td>
+							<table style="color: #404041; font-family: 'Open Sans', Arial, sans-serif, Arial, sans-serif; font-size: 8pt;">
+								<tbody>
+									<tr>
+										<td style="text-align: center; vertical-align: top; width: 50px;"><img class="help_icon" src="http://static.elisa.fi/components/images/order-confirmation/20dpi/icon_invoice.png"
+											 /></td>
+										<td style="height: 100px; padding-top: 5pt; vertical-align: top;">
+											<h3 style="font-size: 10pt; font-weight: bold; margin: 0px;">Laskutus</h3>
+											<p style="margin-top: 0px;">Lue myös <a href="http://elisa.fi/laskutus">laskutusohjeemme</a>.</p>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+     </tbody>
+  </table>
+</body>
+</html>

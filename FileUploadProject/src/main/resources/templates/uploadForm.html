@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<title>FYI updater Tool for Exstream</title>
+<style>
+div.container {
+	width: 73%;
+	border: none;
+	margin: auto;
+}
+
+header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	color: white;
+	background: linear-gradient(to right, #ffa402, #ff5661, #ff279c);
+	clear: left;
+	text-align: center;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	color: white;
+	background: linear-gradient(to right, #ffa402, #ff5661, #ff279c);
+	clear: left;
+	text-align: center;
+}
+
+nav {
+	float: right;
+	max-width: 160px;
+	height: 134px;
+	padding: 1em;
+	border: solid #333
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav ul a {
+	text-decoration: none;
+}
+
+article {
+	padding: 1em;
+}
+
+#divPush {
+	height: 100px; /*Push must be same height as Footer */
+}
+</style>
+<script type="text/javascript" src="scripts.js"></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+	<div class="container">
+
+		<header>
+			<h1>FYI Message updater Tool for Exstream</h1>
+		</header>
+
+		<!--<nav>
+<h1>Navigation</h1>
+<ul>
+ <li><a href="#">Selection 1</a></li>
+ <li><a href="#">Selection 2</a></li>
+ <li><a href="#">Selection 3</a></li>
+</ul>
+</nav>
+-->
+		<div id="divPush"></div>
+		<div th:if="${message}">
+			<h2 th:text="${message}" />
+		</div>
+		<div id="divPush"></div>
+		<div>
+			<form method="POST" enctype="multipart/form-data" action="/uploadFiles">
+				<table border="10">
+					<tr>
+						<td>Description</td>
+						<td><input type="text" name="description" /></td>
+					</tr>
+					<tr>
+						<td>Application</td>
+						<td><input type="radio" id="CRM" name="application"
+							value="CRM"> <label for="CRM">CRM</label> <input
+							type="radio" id="JPD" name="application" value="JPD"><label
+							for="JPD">JPD</label> <input type="radio" id="LASER"
+							name="application" value="LASER"><label for="LASER">LASER</label>
+						</td>
+					</tr>
+					<tr>
+						<td>Submitted By</td>
+						<td><input type="text" name="submitter" /></td>
+					</tr>
+					<tr>
+						<td>INCIDENT_ID</td>
+						<td><input type="text" name="incident" /></td>
+					</tr>
+					<tr>
+						<td>Customer List File</td>
+						<td><input type="file" name="customerListfile" /></td>
+					</tr>
+					<tr>
+						<td>FYI Message List File</td>
+						<td><input type="file" name="FyiMsgfile" /></td>
+					</tr>
+					<tr>
+						<td align="center"><input type="submit" value="Upload" /></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+<div id="divPush"></div>
+		<div>
+			<table border="10">
+				<tr>
+					<th>FILE NAME</th>
+					<th>APPLICATION</th>
+					<th>DESCRIPTION</th>
+					<th>INCIDENT</th>
+					<th>SUBMITTER</th>
+					<th>STATUS</th>
+				</tr>
+
+				<tr th:each="file : ${files}">
+					<td><a th:href="${file}" th:text="${file}" /></td>
+					<td>CRM</td>
+					<td>TEST FILE</td>
+					<td>SUBMITTER</td>
+					<td>INC1234</td>
+					<td>In-Progress</td>
+				</tr>
+
+				</ul>
+			</table>
+		</div>
+
+		<footer>@Amdocs Finland Oy</footer>
+
+	</div>
+
+</body>
+</html>

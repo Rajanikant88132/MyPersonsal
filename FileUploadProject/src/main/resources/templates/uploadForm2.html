@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<title>FYI updater Tool for Exstream</title>
+<style>
+div.container {
+	width: 100%;
+	border: none;
+	margin: auto;
+}
+
+header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	color: white;
+	background: linear-gradient(to right, #ffa402, #ff5661, #ff279c);
+	clear: left;
+	text-align: center;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	color: white;
+	background: linear-gradient(to right, #ffa402, #ff5661, #ff279c);
+	clear: left;
+	text-align: center;
+}
+
+nav {
+	float: right;
+	max-width: 160px;
+	height: 134px;
+	padding: 1em;
+	border: solid #333
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav ul a {
+	text-decoration: none;
+}
+
+article {
+	padding: 1em;
+}
+
+#divPush {
+	height: 100px; /*Push must be same height as Footer */
+}
+</style>
+<script type="text/JavaScript">
+      
+            function AutoRefresh( t ) {
+               setTimeout("location.reload(true);", t);
+            }
+       
+      </script>
+<script type="text/javascript" src="scripts.js"></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body onload="JavaScript:AutoRefresh(300000);">
+	<header>
+		<h1>FYI Message updater Tool for Exstream</h1>
+	</header>
+	<div class="container">
+
+
+
+		<!--<nav>
+<h1>Navigation</h1>
+<ul>
+ <li><a href="#">Selection 1</a></li>
+ <li><a href="#">Selection 2</a></li>
+ <li><a href="#">Selection 3</a></li>
+</ul>
+</nav>
+-->
+
+		<div id="divPush"></div>
+
+		<table border="10">
+			<tr>
+				<th>Customer List</th>
+				<th>Formatted Customer List</th>
+				<th>FYI File</th>
+				<th>Formatted FYI File</th>
+				<th>Application</th>
+				<th>Description</th>
+				<th>Incident</th>
+				<th>Submitted By</th>
+				<th>Status</th>
+				<th>Submitted DATE</th>
+				<th>Last Status DATE</th>
+				<th>Completion DATE</th>
+			</tr>
+			<div th:if="${not #lists.isEmpty(fileDetails)}">
+				<tr th:each="fileDetail : ${fileDetails}">
+				    <td><a  th:href="${fileDetail.CustFileName}"  th:text="${fileDetail.CustFileName}" /></td>
+					<td th:text="${fileDetail.formatedCustFileName}" />
+					<td><a th:href="${fileDetail.MsgFileName}" th:text="${fileDetail.MsgFileName}" /></td>
+					<td th:text="${fileDetail.formatedMsgFileName}" />
+					<td th:text="${fileDetail.application}" />
+					<td th:text="${fileDetail.description}" />
+					<td th:text="${fileDetail.incident}" />
+					<td th:text="${fileDetail.submitter}" />
+					<div th:if="${fileDetail.status}=='Received'">
+						<td style="background-color: #E4CB5A"
+							th:text="${fileDetail.status}" />
+					</div>
+					<div th:if="${fileDetail.status}=='In Progress'">
+						<td style="background-color: #f5d90a"
+							th:text="${fileDetail.status}" />
+					</div>
+					<div th:if="${fileDetail.status}=='Completed'">
+						<td style="background-color: #00FF00"
+							th:text="${fileDetail.status}" />
+					</div>
+					<div th:if="${fileDetail.status}=='Failed'">
+						<td style="background-color: #FF0000"
+							th:text="${fileDetail.status}" />
+					</div>
+					<td th:text="${fileDetail.submitedDate}" />
+					<td th:text="${fileDetail.LatestUpdateDate}" />
+					<td th:text="${fileDetail.CompletionDate}" />
+				</tr>
+
+			</div>
+		</table>
+
+
+		<div id="divPush"></div>
+		<div th:if="${message}">
+			<h2 th:text="${message}" />
+		</div>
+		<div id="divPush"></div>
+
+		<form method="POST" enctype="multipart/form-data"
+			action="/uploadFiles">
+			<table border="10">
+				<tr>
+					<td>Description</td>
+					<td><input type="text" name="description" /></td>
+				</tr>
+				<tr>
+					<td>Application</td>
+					<td><input type="radio" id="CRM" name="application"
+						value="CRM"> <label for="CRM">CRM</label> <input
+						type="radio" id="JPD" name="application" value="JPD"><label
+						for="JPD">JPD</label> <input type="radio" id="LASER"
+						name="application" value="LASER"><label for="LASER">LASER</label>
+					</td>
+				</tr>
+				<tr>
+					<td>Submitted By</td>
+					<td><input type="text" name="submitter" /></td>
+				</tr>
+				<tr>
+					<td>INCIDENT_ID</td>
+					<td><input type="text" name="incident" /></td>
+				</tr>
+				<tr>
+					<td>Customer List File</td>
+					<td><input type="file" name="customerListfile" /></td>
+				</tr>
+				<tr>
+					<td>FYI Message List File</td>
+					<td><input type="file" name="FyiMsgfile" /></td>
+				</tr>
+				<tr>
+					<td align="center"><input type="submit" value="Upload" /></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<footer>@Amdocs Finland Oy</footer>
+</body>
+</html>
